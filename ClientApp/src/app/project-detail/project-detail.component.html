@@ -1,0 +1,26 @@
+<div *ngIf="project">
+
+  <h2>{{project.name | uppercase}} List of Tasks</h2>
+
+  <ul class="tasks">
+    <li *ngFor="let task of tasks">
+      
+        <span class="badge"></span> {{task.title}}
+      
+
+    </li>
+  </ul>
+
+
+
+
+  <label>
+    Task title:
+    <input #TaskTitle />
+  </label>
+  <!-- (click) passes input value to add() and then clears the input -->
+  <button (click)="add(TaskTitle.value); TaskTitle.value=''">
+    add
+  </button>
+  <button (click)="goBack()">go back</button>
+</div>
