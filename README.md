@@ -12,6 +12,6 @@ Table of Tasks contain a foreign key from Table of Projects, then models were sc
 ## MVC 
 Frontend: MVVM from https://scotch.io/tutorials/mvc-in-an-angular-world Backend contains Models and controllers.
 ## Continous Intergration
-Added an Azure Pipeline,
+Added an Azure Pipeline: azure-pipelines.yml
 # Link
 https://lll201912150316212.azurewebsites.net/
