@@ -1,7 +1,7 @@
 # APP
 Site to create Projects and in those projects add tasks to do. Authenticate to see profile information
 # CheckList
-#Depedency Injection:
+## Depedency Injection:
 Constructors were injected with services
 ## SPA
 Made in Angular
